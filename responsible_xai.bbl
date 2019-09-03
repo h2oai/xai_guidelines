@@ -1,0 +1,637 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{40}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{A{\"\i}vodji, Arai, Fortineau, Gambs, Hara,
+  and Tapp}{A{\"\i}vodji et~al\mbox{.}}{2019}]%
+        {fair_washing}
+\bibfield{author}{\bibinfo{person}{Ulrich A{\"\i}vodji},
+  \bibinfo{person}{Hiromi Arai}, \bibinfo{person}{Olivier Fortineau},
+  \bibinfo{person}{S{\'e}bastien Gambs}, \bibinfo{person}{Satoshi Hara}, {and}
+  \bibinfo{person}{Alain Tapp}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Fairwashing: the {R}isk of {R}ationalization}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1901.09749}}
+  (\bibinfo{year}{2019}).
+\newblock
+\newblock
+\shownote{URL: \url{https://arxiv.org/pdf/1901.09749.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Angwin, Larson, Mattu, and Kirchner}{Angwin
+  et~al\mbox{.}}{2016}]%
+        {angwin16}
+\bibfield{author}{\bibinfo{person}{Julia Angwin}, \bibinfo{person}{Jeff
+  Larson}, \bibinfo{person}{Surya Mattu}, {and} \bibinfo{person}{Lauren
+  Kirchner}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{{M}achine {B}ias: {T}here's {S}oftware {U}sed
+  {A}cross the {C}ountry to {P}redict {F}uture {C}riminals. {A}nd {I}t's
+  {B}iased {A}gainst {B}lacks.}
+\newblock \bibinfo{journal}{\emph{ProPublica}} (\bibinfo{year}{2016}).
+\newblock
+\newblock
+\shownote{URL:
+  \url{https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing}.}
+
+
+\bibitem[\protect\citeauthoryear{Apley}{Apley}{2016}]%
+        {ale_plot}
+\bibfield{author}{\bibinfo{person}{Daniel~W. Apley}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Visualizing the {E}ffects of {P}redictor
+  {V}ariables in {B}lack {B}ox {S}upervised {L}earning {M}odels}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1612.08468}}
+  (\bibinfo{year}{2016}).
+\newblock
+\newblock
+\shownote{URL: \url{https://arxiv.org/pdf/1612.08468.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Bastani, Kim, and Bastani}{Bastani
+  et~al\mbox{.}}{2017}]%
+        {dt_surrogate2}
+\bibfield{author}{\bibinfo{person}{Osbert Bastani}, \bibinfo{person}{Carolyn
+  Kim}, {and} \bibinfo{person}{Hamsa Bastani}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Interpreting {B}lackbox {M}odels via {M}odel
+  {E}xtraction}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1705.08504}}
+  (\bibinfo{year}{2017}).
+\newblock
+\newblock
+\shownote{URL: \url{https://arxiv.org/pdf/1705.08504.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Bastani, Pu, and Solar-Lezama}{Bastani
+  et~al\mbox{.}}{2018}]%
+        {viper}
+\bibfield{author}{\bibinfo{person}{Osbert Bastani}, \bibinfo{person}{Yewen Pu},
+  {and} \bibinfo{person}{Armando Solar-Lezama}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Verifiable {R}einforcement {L}earning {V}ia
+  {P}olicy {E}xtraction}. In \bibinfo{booktitle}{\emph{Advances in Neural
+  Information Processing Systems}}. \bibinfo{pages}{2494--2504}.
+\newblock
+\newblock
+\shownote{URL:
+  \url{http://papers.nips.cc/paper/7516-verifiable-reinforcement-learning-via-policy-extraction.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Craven and Shavlik}{Craven and
+  Shavlik}{1996}]%
+        {dt_surrogate1}
+\bibfield{author}{\bibinfo{person}{Mark~W. Craven} {and}
+  \bibinfo{person}{Jude~W. Shavlik}.} \bibinfo{year}{1996}\natexlab{}.
+\newblock \showarticletitle{Extracting {T}ree-{S}tructured {R}epresentations of
+  {T}rained {N}etworks}.
+\newblock \bibinfo{journal}{\emph{Advances in Neural Information Processing
+  Systems}} (\bibinfo{year}{1996}).
+\newblock
+\newblock
+\shownote{URL:
+  \url{http://papers.nips.cc/paper/1152-extracting-tree-structured-representations-of-trained-networks.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Doshi-Velez and Kim}{Doshi-Velez and
+  Kim}{2017}]%
+        {been_kim1}
+\bibfield{author}{\bibinfo{person}{Finale Doshi-Velez} {and}
+  \bibinfo{person}{Been Kim}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Towards a {R}igorous {S}cience of {I}nterpretable
+  {M}achine {L}earning}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1702.08608}}
+  (\bibinfo{year}{2017}).
+\newblock
+\newblock
+\shownote{URL: \url{https://arxiv.org/pdf/1702.08608.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Feldman, Friedler, Moeller, Scheidegger, and
+  Venkatasubramanian}{Feldman et~al\mbox{.}}{2015}]%
+        {feldman2015certifying}
+\bibfield{author}{\bibinfo{person}{Michael Feldman},
+  \bibinfo{person}{Sorelle~A. Friedler}, \bibinfo{person}{John Moeller},
+  \bibinfo{person}{Carlos Scheidegger}, {and} \bibinfo{person}{Suresh
+  Venkatasubramanian}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Certifying and {R}emoving {D}isparate {I}mpact}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 21\textsuperscript{st} ACM
+  SIGKDD International Conference on Knowledge Discovery and Data Mining}}.
+  ACM, \bibinfo{pages}{259--268}.
+\newblock
+\newblock
+\shownote{URL: \url{https://arxiv.org/pdf/1412.3756.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Flores, Bechtel, and Lowenkamp}{Flores
+  et~al\mbox{.}}{2016}]%
+        {flores2016false}
+\bibfield{author}{\bibinfo{person}{Anthony~W. Flores}, \bibinfo{person}{Kristin
+  Bechtel}, {and} \bibinfo{person}{Christopher~T. Lowenkamp}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{False {P}ositives, {F}alse {N}egatives, and {F}alse
+  {A}nalyses: {A} {R}ejoinder to {M}achine {B}ias: {T}here's {S}oftware {U}sed
+  across the {C}ountry to {P}redict {F}uture {C}riminals. {A}nd {I}t's {B}iased
+  against {B}lacks}.
+\newblock \bibinfo{journal}{\emph{Fed. Probation}}  \bibinfo{volume}{80}
+  (\bibinfo{year}{2016}), \bibinfo{pages}{38}.
+\newblock
+\newblock
+\shownote{URL: \url{https://bit.ly/2Gesf9Y}.}
+
+
+\bibitem[\protect\citeauthoryear{Friedler, Roy, Scheidegger, and
+  Slack}{Friedler et~al\mbox{.}}{2019}]%
+        {friedler2019assessing}
+\bibfield{author}{\bibinfo{person}{Sorelle~A. Friedler},
+  \bibinfo{person}{Chitradeep~Dutta Roy}, \bibinfo{person}{Carlos Scheidegger},
+  {and} \bibinfo{person}{Dylan Slack}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{{A}ssessing the {L}ocal {I}nterpretability of
+  {M}achine {L}earning {M}odels}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1902.03501}}
+  (\bibinfo{year}{2019}).
+\newblock
+\newblock
+\shownote{URL: \url{https://arxiv.org/pdf/1902.03501.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Friedman, Hastie, and Tibshirani}{Friedman
+  et~al\mbox{.}}{2001}]%
+        {esl}
+\bibfield{author}{\bibinfo{person}{Jerome Friedman}, \bibinfo{person}{Trevor
+  Hastie}, {and} \bibinfo{person}{Robert Tibshirani}.}
+  \bibinfo{year}{2001}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{\textbf{The Elements of Statistical
+  Learning}}}.
+\newblock \bibinfo{publisher}{Springer}, \bibinfo{address}{New York}.
+\newblock
+\newblock
+\shownote{URL:
+  \url{https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII\_print12.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Gillies, Fiebrink, Tanaka, Garcia, Bevilacqua,
+  Heloir, Nunnari, Mackay, Amershi, Lee, et~al\mbox{.}}{Gillies
+  et~al\mbox{.}}{2016}]%
+        {hcml}
+\bibfield{author}{\bibinfo{person}{Marco Gillies}, \bibinfo{person}{Rebecca
+  Fiebrink}, \bibinfo{person}{Atau Tanaka}, \bibinfo{person}{J{\'e}r{\'e}mie
+  Garcia}, \bibinfo{person}{Fr{\'e}d{\'e}ric Bevilacqua},
+  \bibinfo{person}{Alexis Heloir}, \bibinfo{person}{Fabrizio Nunnari},
+  \bibinfo{person}{Wendy Mackay}, \bibinfo{person}{Saleema Amershi},
+  \bibinfo{person}{Bongshin Lee}, {et~al\mbox{.}}}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Human-{C}entred {M}achine {L}earning}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2016 CHI Conference Extended
+  Abstracts on Human Factors in Computing Systems}}. ACM,
+  \bibinfo{pages}{3558--3565}.
+\newblock
+\newblock
+\shownote{URL: \url{http://research.gold.ac.uk/16112/1/HCML2016.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Gilpin, Bau, Yuan, Bajwa, Specter, and
+  Kagal}{Gilpin et~al\mbox{.}}{2018}]%
+        {gilpin2018explaining}
+\bibfield{author}{\bibinfo{person}{Leilani~H. Gilpin}, \bibinfo{person}{David
+  Bau}, \bibinfo{person}{Ben~Z. Yuan}, \bibinfo{person}{Ayesha Bajwa},
+  \bibinfo{person}{Michael Specter}, {and} \bibinfo{person}{Lalana Kagal}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Explaining {E}xplanations: {A}n {A}pproach to
+  {E}valuating {I}nterpretability of {M}achine {L}earning}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1806.00069}}
+  (\bibinfo{year}{2018}).
+\newblock
+\newblock
+\shownote{URL: \url{https://arxiv.org/pdf/1806.00069.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Goldstein, Kapelner, Bleich, and
+  Pitkin}{Goldstein et~al\mbox{.}}{2015}]%
+        {ice_plots}
+\bibfield{author}{\bibinfo{person}{Alex Goldstein}, \bibinfo{person}{Adam
+  Kapelner}, \bibinfo{person}{Justin Bleich}, {and} \bibinfo{person}{Emil
+  Pitkin}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Peeking {I}nside the {B}lack {B}ox: {V}isualizing
+  {S}tatistical {L}earning with {P}lots of {I}ndividual {C}onditional
+  {E}xpectation}.
+\newblock \bibinfo{journal}{\emph{Journal of Computational and Graphical
+  Statistics}} \bibinfo{volume}{24}, \bibinfo{number}{1}
+  (\bibinfo{year}{2015}).
+\newblock
+\newblock
+\shownote{URL: \url{https://arxiv.org/pdf/1309.6392.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Gopinathan, Biafore, Ferguson, Lazarus,
+  Pathria, and Jost}{Gopinathan et~al\mbox{.}}{1998}]%
+        {gopinathan1998fraud}
+\bibfield{author}{\bibinfo{person}{Krishna~M. Gopinathan},
+  \bibinfo{person}{Louis~S. Biafore}, \bibinfo{person}{William~M. Ferguson},
+  \bibinfo{person}{Michael~A. Lazarus}, \bibinfo{person}{Anu~K. Pathria}, {and}
+  \bibinfo{person}{Allen Jost}.} \bibinfo{year}{1998}\natexlab{}.
+\newblock \bibinfo{title}{Fraud {D}etection using {P}redictive {M}odeling}.
+\newblock
+\newblock
+\newblock
+\shownote{US Patent 5,819,226. URL:
+  \url{https://patents.google.com/patent/US5819226A}.}
+
+
+\bibitem[\protect\citeauthoryear{Gosiewska, Gacek, Lubon, and Biecek}{Gosiewska
+  et~al\mbox{.}}{2019}]%
+        {gosiewska2019safe}
+\bibfield{author}{\bibinfo{person}{Alicja Gosiewska},
+  \bibinfo{person}{Aleksandra Gacek}, \bibinfo{person}{Piotr Lubon}, {and}
+  \bibinfo{person}{Przemyslaw Biecek}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{S{A}{F}{E} {M}{L}: {S}urrogate {A}ssisted {F}eature
+  {E}xtraction for {M}odel {L}earning}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1902.11035}}
+  (\bibinfo{year}{2019}).
+\newblock
+\newblock
+\shownote{URL: \url{https://arxiv.org/pdf/1902.11035v1.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Guidotti, Monreale, Ruggieri, Turini,
+  Giannotti, and Pedreschi}{Guidotti et~al\mbox{.}}{2018}]%
+        {guidotti2018survey}
+\bibfield{author}{\bibinfo{person}{Riccardo Guidotti}, \bibinfo{person}{Anna
+  Monreale}, \bibinfo{person}{Salvatore Ruggieri}, \bibinfo{person}{Franco
+  Turini}, \bibinfo{person}{Fosca Giannotti}, {and} \bibinfo{person}{Dino
+  Pedreschi}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{{A} {S}urvey of {M}ethods for {E}xplaining {B}lack
+  {B}ox {M}odels}.
+\newblock \bibinfo{journal}{\emph{ACM Computing Surveys (CSUR)}}
+  \bibinfo{volume}{51}, \bibinfo{number}{5} (\bibinfo{year}{2018}),
+  \bibinfo{pages}{93}.
+\newblock
+\newblock
+\shownote{URL: \url{https://arxiv.org/pdf/1802.01933.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Hall}{Hall}{2018}]%
+        {art_and_sci}
+\bibfield{author}{\bibinfo{person}{Patrick Hall}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{On the {A}rt and {S}cience of {M}achine {L}earning
+  {E}xplanations}. In \bibinfo{booktitle}{\emph{JSM Proceedings, Statistical
+  Computing Section}}. \bibinfo{publisher}{American Statistical Association},
+  \bibinfo{pages}{1781--1799}.
+\newblock
+\newblock
+\shownote{URL: \url{https://github.com/jphall663/jsm_2018_paper}.}
+
+
+\bibitem[\protect\citeauthoryear{Hardt, Price, Srebro, et~al\mbox{.}}{Hardt
+  et~al\mbox{.}}{2016}]%
+        {hardt2016equality}
+\bibfield{author}{\bibinfo{person}{Moritz Hardt}, \bibinfo{person}{Eric Price},
+  \bibinfo{person}{Nati Srebro}, {et~al\mbox{.}}}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Equality of {O}pportunity in {S}upervised
+  {L}earning}. In \bibinfo{booktitle}{\emph{Advances in Neural Information
+  Processing Systems}}. \bibinfo{pages}{3315--3323}.
+\newblock
+\newblock
+\shownote{URL:
+  \url{http://papers.nips.cc/paper/6374-equality-of-opportunity-in-supervised-learning.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Hu, Chen, Nair, and Sudjianto}{Hu
+  et~al\mbox{.}}{2018}]%
+        {lime-sup}
+\bibfield{author}{\bibinfo{person}{Linwei Hu}, \bibinfo{person}{Jie Chen},
+  \bibinfo{person}{Vijayan~N. Nair}, {and} \bibinfo{person}{Agus Sudjianto}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Locally {I}nterpretable {M}odels and {E}ffects
+  {B}ased on {S}upervised {P}artitioning ({LIME-SUP})}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1806.00663}}
+  (\bibinfo{year}{2018}).
+\newblock
+\newblock
+\shownote{URL: \url{https://arxiv.org/ftp/arxiv/papers/1806/1806.00663.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Keinan, Sandbank, Hilgetag, Meilijson, and
+  Ruppin}{Keinan et~al\mbox{.}}{2004}]%
+        {keinan2004fair}
+\bibfield{author}{\bibinfo{person}{Alon Keinan}, \bibinfo{person}{Ben
+  Sandbank}, \bibinfo{person}{Claus~C. Hilgetag}, \bibinfo{person}{Isaac
+  Meilijson}, {and} \bibinfo{person}{Eytan Ruppin}.}
+  \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{Fair {A}ttribution of {F}unctional {C}ontribution
+  in {A}rtificial and {B}iological {N}etworks}.
+\newblock \bibinfo{journal}{\emph{Neural Computation}} \bibinfo{volume}{16},
+  \bibinfo{number}{9} (\bibinfo{year}{2004}), \bibinfo{pages}{1887--1915}.
+\newblock
+\newblock
+\shownote{URL:
+  \url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.436.6801&rep=rep1&type=pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Lichman}{Lichman}{2013}]%
+        {uci}
+\bibfield{author}{\bibinfo{person}{M. Lichman}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{title}{{UCI} {M}achine {L}earning {R}epository}.
+\newblock
+\newblock
+\newblock
+\shownote{URL: \url{http://archive.ics.uci.edu/ml}.}
+
+
+\bibitem[\protect\citeauthoryear{Lipovetsky and Conklin}{Lipovetsky and
+  Conklin}{2001}]%
+        {lipovetsky2001analysis}
+\bibfield{author}{\bibinfo{person}{Stan Lipovetsky} {and}
+  \bibinfo{person}{Michael Conklin}.} \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{Analysis of {R}egression in {G}ame {T}heory
+  {A}pproach}.
+\newblock \bibinfo{journal}{\emph{Applied Stochastic Models in Business and
+  Industry}} \bibinfo{volume}{17}, \bibinfo{number}{4} (\bibinfo{year}{2001}),
+  \bibinfo{pages}{319--330}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lipton}{Lipton}{2016}]%
+        {lipton1}
+\bibfield{author}{\bibinfo{person}{Zachary~C. Lipton}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{The {M}ythos of {M}odel {I}nterpretability}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1606.03490}}
+  (\bibinfo{year}{2016}).
+\newblock
+\newblock
+\shownote{URL: \url{https://arxiv.org/pdf/1606.03490.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Lundberg, Erion, and Lee}{Lundberg
+  et~al\mbox{.}}{2017}]%
+        {tree_shap}
+\bibfield{author}{\bibinfo{person}{Scott~M. Lundberg},
+  \bibinfo{person}{Gabriel~G. Erion}, {and} \bibinfo{person}{Su-In Lee}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Consistent {I}ndividualized {F}eature {A}ttribution
+  for {T}ree {E}nsembles}.
+\newblock In \bibinfo{booktitle}{\emph{Proceedings of the 2017 ICML Workshop on
+  Human Interpretability in Machine Learning (WHI 2017)}},
+  \bibfield{editor}{\bibinfo{person}{Been Kim}, \bibinfo{person}{Dmitry~M.
+  Malioutov}, \bibinfo{person}{Kush~R. Varshney}, {and} \bibinfo{person}{Adrian
+  Weller}} (Eds.). \bibinfo{publisher}{ICML WHI 2017}, \bibinfo{pages}{15--21}.
+\newblock
+\newblock
+\shownote{URL: \url{https://openreview.net/pdf?id=ByTKSo-m-}.}
+
+
+\bibitem[\protect\citeauthoryear{Lundberg and Lee}{Lundberg and Lee}{2017}]%
+        {shapley}
+\bibfield{author}{\bibinfo{person}{Scott~M. Lundberg} {and}
+  \bibinfo{person}{Su-In Lee}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{A {U}nified {A}pproach to {I}nterpreting {M}odel
+  {P}redictions}.
+\newblock In \bibinfo{booktitle}{\emph{Advances in Neural Information
+  Processing Systems 30}}, \bibfield{editor}{\bibinfo{person}{I.~Guyon},
+  \bibinfo{person}{U.~V. Luxburg}, \bibinfo{person}{S.~Bengio},
+  \bibinfo{person}{H.~Wallach}, \bibinfo{person}{R.~Fergus},
+  \bibinfo{person}{S.~Vishwanathan}, {and} \bibinfo{person}{R.~Garnett}}
+  (Eds.). \bibinfo{publisher}{Curran Associates, Inc.},
+  \bibinfo{pages}{4765--4774}.
+\newblock
+\newblock
+\shownote{URL:
+  \url{http://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Molnar}{Molnar}{2018}]%
+        {molnar}
+\bibfield{author}{\bibinfo{person}{Christoph Molnar}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{\textbf{\textit{{I}nterpretable {M}achine
+  {L}earning}}}}.
+\newblock \bibinfo{publisher}{christophm.github.io}.
+\newblock
+\newblock
+\shownote{URL: \url{https://christophm.github.io/interpretable-ml-book/}.}
+
+
+\bibitem[\protect\citeauthoryear{Molnar, Casalicchio, and Bischl}{Molnar
+  et~al\mbox{.}}{2019}]%
+        {molnar2019quantifying}
+\bibfield{author}{\bibinfo{person}{Christoph Molnar}, \bibinfo{person}{Giuseppe
+  Casalicchio}, {and} \bibinfo{person}{Bernd Bischl}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Quantifying {I}nterpretability of {A}rbitrary
+  {M}achine {L}earning {M}odels {T}hrough {F}unctional {D}ecomposition}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1904.03867}}
+  (\bibinfo{year}{2019}).
+\newblock
+\newblock
+\shownote{URL: \url{https://arxiv.org/pdf/1904.03867.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Murdoch, Singh, Kumbier, Abbasi-Asl, and
+  Yu}{Murdoch et~al\mbox{.}}{2019}]%
+        {murdoch2019interpretable}
+\bibfield{author}{\bibinfo{person}{W.~James Murdoch}, \bibinfo{person}{Chandan
+  Singh}, \bibinfo{person}{Karl Kumbier}, \bibinfo{person}{Reza Abbasi-Asl},
+  {and} \bibinfo{person}{Bin Yu}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Interpretable {M}achine {L}earning: {D}efinitions,
+  {M}ethods, and {A}pplications}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1901.04592}}
+  (\bibinfo{year}{2019}).
+\newblock
+\newblock
+\shownote{URL: \url{https://arxiv.org/pdf/1901.04592.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Ribeiro, Singh, and Guestrin}{Ribeiro
+  et~al\mbox{.}}{2016}]%
+        {lime}
+\bibfield{author}{\bibinfo{person}{Marco~Tulio Ribeiro},
+  \bibinfo{person}{Sameer Singh}, {and} \bibinfo{person}{Carlos Guestrin}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Why {S}hould {I} {T}rust {Y}ou?: {E}xplaining the
+  {P}redictions of {A}ny {C}lassifier}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 22nd ACM SIGKDD International
+  Conference on Knowledge Discovery and Data Mining}}. ACM,
+  \bibinfo{pages}{1135--1144}.
+\newblock
+\newblock
+\shownote{URL:
+  \url{http://www.kdd.org/kdd2016/papers/files/rfp0573-ribeiroA.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Rudin}{Rudin}{2018}]%
+        {please_stop}
+\bibfield{author}{\bibinfo{person}{Cynthia Rudin}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Please {S}top {E}xplaining {B}lack {B}ox {M}odels
+  for {H}igh {S}takes {D}ecisions}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1811.10154}}
+  (\bibinfo{year}{2018}).
+\newblock
+\newblock
+\shownote{URL: \url{https://arxiv.org/pdf/1811.10154.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Shapley, Roth, et~al\mbox{.}}{Shapley
+  et~al\mbox{.}}{1988}]%
+        {shapley1988shapley}
+\bibfield{author}{\bibinfo{person}{Lloyd~S. Shapley}, \bibinfo{person}{Alvin~E.
+  Roth}, {et~al\mbox{.}}} \bibinfo{year}{1988}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{\textit{The Shapley value: {E}ssays in
+  honor of {L}loyd {S}. {S}hapley}}}.
+\newblock \bibinfo{publisher}{Cambridge University Press}.
+\newblock
+\newblock
+\shownote{URL: \url{http://www.library.fa.ru/files/Roth2.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Shokri, Stronati, Song, and Shmatikov}{Shokri
+  et~al\mbox{.}}{2017}]%
+        {membership_inference}
+\bibfield{author}{\bibinfo{person}{Reza Shokri}, \bibinfo{person}{Marco
+  Stronati}, \bibinfo{person}{Congzheng Song}, {and} \bibinfo{person}{Vitaly
+  Shmatikov}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Membership {I}nference {A}ttacks {A}gainst
+  {M}achine {L}earning {M}odels}. In \bibinfo{booktitle}{\emph{2017 IEEE
+  Symposium on Security and Privacy (SP)}}. IEEE, \bibinfo{pages}{3--18}.
+\newblock
+\newblock
+\shownote{URL: \url{https://arxiv.org/pdf/1610.05820.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Strumbelj and Kononenko}{Strumbelj and
+  Kononenko}{2010}]%
+        {kononenko2010efficient}
+\bibfield{author}{\bibinfo{person}{Erik Strumbelj} {and} \bibinfo{person}{Igor
+  Kononenko}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{An {E}fficient {E}xplanation of {I}ndividual
+  {C}lassifications using {G}ame {T}heory}.
+\newblock \bibinfo{journal}{\emph{Journal of Machine Learning Research}}
+  \bibinfo{volume}{11}, \bibinfo{number}{Jan} (\bibinfo{year}{2010}),
+  \bibinfo{pages}{1--18}.
+\newblock
+\newblock
+\shownote{URL:
+  \url{http://www.jmlr.org/papers/volume11/strumbelj10a/strumbelj10a.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Tram{\`e}r, Zhang, Juels, Reiter, and
+  Ristenpart}{Tram{\`e}r et~al\mbox{.}}{2016}]%
+        {model_stealing}
+\bibfield{author}{\bibinfo{person}{Florian Tram{\`e}r}, \bibinfo{person}{Fan
+  Zhang}, \bibinfo{person}{Ari Juels}, \bibinfo{person}{Michael~K Reiter},
+  {and} \bibinfo{person}{Thomas Ristenpart}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Stealing {M}achine {L}earning {M}odels via
+  {P}rediction {A}{P}{I}s}. In \bibinfo{booktitle}{\emph{25th $\{$USENIX$\}$
+  Security Symposium ($\{$USENIX$\}$ Security 16)}}. \bibinfo{pages}{601--618}.
+\newblock
+\newblock
+\shownote{URL:
+  \url{https://www.usenix.org/system/files/conference/usenixsecurity16/sec16_paper_tramer.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Ustun and Rudin}{Ustun and Rudin}{2016}]%
+        {slim}
+\bibfield{author}{\bibinfo{person}{Berk Ustun} {and} \bibinfo{person}{Cynthia
+  Rudin}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{{Supersparse {L}inear {I}nteger {M}odels for
+  {O}ptimized {M}edical {S}coring {S}ystems}}.
+\newblock \bibinfo{journal}{\emph{Machine Learning}} \bibinfo{volume}{102},
+  \bibinfo{number}{3} (\bibinfo{year}{2016}), \bibinfo{pages}{349--391}.
+\newblock
+\newblock
+\shownote{URL:
+  \url{https://users.cs.duke.edu/~cynthia/docs/UstunTrRuAAAI13.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Vaughan, Sudjianto, Brahimi, Chen, and
+  Nair}{Vaughan et~al\mbox{.}}{2018}]%
+        {wf_xnn}
+\bibfield{author}{\bibinfo{person}{Joel Vaughan}, \bibinfo{person}{Agus
+  Sudjianto}, \bibinfo{person}{Erind Brahimi}, \bibinfo{person}{Jie Chen},
+  {and} \bibinfo{person}{Vijayan~N. Nair}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Explainable {N}eural {N}etworks {B}ased on
+  {A}dditive {I}ndex {M}odels}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1806.01933}}
+  (\bibinfo{year}{2018}).
+\newblock
+\newblock
+\shownote{URL: \url{https://arxiv.org/pdf/1806.01933.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Weller}{Weller}{2017}]%
+        {weller2017challenges}
+\bibfield{author}{\bibinfo{person}{Adrian Weller}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{{C}hallenges for {T}ransparency}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1708.01870}}
+  (\bibinfo{year}{2017}).
+\newblock
+\newblock
+\shownote{URL: \url{https://arxiv.org/pdf/1708.01870.pdf}.}
+
+
+\bibitem[\protect\citeauthoryear{Williams et~al\mbox{.}}{Williams
+  et~al\mbox{.}}{2017}]%
+        {ff_interpretability}
+\bibfield{author}{\bibinfo{person}{Mike Williams} {et~al\mbox{.}}}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Interpretability}}.
+\newblock \bibinfo{publisher}{Fast Forward Labs}.
+\newblock
+\newblock
+\shownote{URL:
+  \url{https://www.cloudera.com/products/fast-forward-labs-research.html}.}
+
+
+\bibitem[\protect\citeauthoryear{Yang, Rudin, and Seltzer}{Yang
+  et~al\mbox{.}}{2017}]%
+        {sbrl}
+\bibfield{author}{\bibinfo{person}{Hongyu Yang}, \bibinfo{person}{Cynthia
+  Rudin}, {and} \bibinfo{person}{Margo Seltzer}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Scalable {B}ayesian {R}ule {L}ists}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 34th International Conference on
+  Machine Learning {(ICML)}}}.
+\newblock
+\newblock
+\shownote{URL: \url{https://arxiv.org/pdf/1602.08610.pdf}.}
+
+
+\end{thebibliography}
