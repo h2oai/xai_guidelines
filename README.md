@@ -1,4 +1,4 @@
-# Responsible Use Guidelines for Explainable AI
+# Responsible Use Guidelines for Explainable Machine Learning
 A proposal for a 180-minute hands-on tutorial at ACM FAT* 2020, Barcelona, Spain.  
 
 All tutorial code and materials are available here: https://github.com/h2oai/xai_guidelines. All materials may be re-used and re-purposed, even for commerical applications, with proper attribution of the authors.
