@@ -7,7 +7,7 @@ All tutorial code and materials are available here: https://github.com/h2oai/xai
 
 #### To use the code examples for this tutorial: 
 
-1. Navigate to [aquarium.h2o.ai](aquarium.h2o.ai). 
+1. Navigate to [https://aquarium.h2o.ai](https://aquarium.h2o.ai). 
 2. Click `Create a new account` below the login.
 3. Check the registered email inbox and use the temporary password sent there to login to Aquarium. 
 4. Click `Browse Labs` in the upper left.
