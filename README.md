@@ -15,7 +15,7 @@ All tutorial code and materials are available here: https://github.com/h2oai/xai
 6. Click `Start Lab` and wait for several minutes as a cloud server is provisioned for you.  
 7. Once your server is ready, click on the `Jupyter URL` at the bottom of your screen. 
 8. Enter the token `h2o` at the top Jupyter security `Password or Token` text box.
-9. Click the `xai_guidelines` folder. (For those interested the `patrick_hall_mli` folder contains resources from a 2018 FAT* tutorial.)
+9. Click the `xai_guidelines` folder. (For those interested, the `patrick_hall_mli` folder contains resources from a 2018 FAT* tutorial.)
 10. You now have access to the tutorial materials. You may browse them at your own pace or wait for instructions. You may also come back to them at anytime using your Aquarium login. 
 
 #### Tutorial Instructors
