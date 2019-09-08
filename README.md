@@ -1,7 +1,9 @@
 # Responsible Use Guidelines for Explainable AI
 A proposal for a 180-minute hands-on tutorial at ACM FAT* 2020, Barcelona, Spain.  
 
-#### For tutorial outline, please see [responsible_xai.pdf](responsible_xai.pdf).
+All tutorial code and materials are available here: https://github.com/h2oai/xai_guidelines. All materials may be re-used and re-purposed, even for commerical applications, with proper attribution of the authors.
+
+#### For the tutorial outline, please see [responsible_xai.pdf](responsible_xai.pdf).
 
 #### To use the code examples for this tutorial: 
 
@@ -22,4 +24,4 @@ A proposal for a 180-minute hands-on tutorial at ACM FAT* 2020, Barcelona, Spain
 
 **Navdeep Gill**: Navdeep Gill is a senior data scientist and engineer at H2O.ai. Navdeep is a founding member of the interpretability team at H2O.ai and has worked on various other projects ay H2O.ai including the open source h2o, automl, and h2o4gpu machine learning libraries. Before joining H2O.ai, Navdeep worked in credit scoring and researched neuroscience. 
 
-**Nick Schmidt**: Nick Schmidt is the director of the AI Practice at BLDS, a leading fair-lending advisory firm. At Nick concentrates on creating real-world ethical AI systems for some of largest financial institutions in the world. Prior to BLDS, Nick worked as an analyst and consultant at several well-respected economic and financial firms. 
+**Nick Schmidt**: Nick Schmidt is the director of the AI Practice at BLDS, a leading fair-lending advisory firm. At BLDS, Nick concentrates on creating real-world ethical AI systems for some of largest financial institutions in the world. Prior to BLDS, Nick worked as an analyst and consultant at several well-respected economic and financial firms. 
