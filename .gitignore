@@ -108,9 +108,16 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+# Mac OSX 
 *.DS_Store
+
+# LaTeX
 *.aux
 *.bbl
 *.blg
 *.out
 *.synctex.gz
+
+# Graphviz
+model.gv
+model.png

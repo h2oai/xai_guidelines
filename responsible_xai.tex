@@ -63,8 +63,8 @@
 % end of the preamble, start of the body of the document source.
 \begin{document}
 
-% The "title" command has an optional parameter, allowing the author to define a "short title" to be used in page headers.
-\title[Responsible XAI]{\huge{Hands-On Tutorial: Responsible Use Guidelines for\\ Explainable Machine Learning}}
+% The "title" command has an optional parameter, allowing the author to define a "short title" to be used in page headers.\\
+\title[Responsible XAI]{\huge{Hands-On Tutorial Outline: Responsible Use Guidelines\\ for Explainable Machine Learning}}
 
 
 % The "author" command and its associated commands are used to define the authors and their affiliations.
@@ -190,22 +190,22 @@ Explainable ML practitioners have seemingly not yet adopted a clear taxonomy of 
 \vspace{-8pt}
 \noindent Examples of common explainable ML techniques include:
 \begin{itemize}
-\item Local and global feature importance methods, e.g. Shapley values and derivative-based feature attribution \cite{grad_attr} \cite{keinan2004fair}, \cite{shapley}, \cite{shapley1988shapley}, \cite{kononenko2010efficient}.
-\item Local and global model-agnostic surrogate models, e.g. surrogate decision trees and LIME \cite{dt_surrogate2}, \cite{viper}, \cite{dt_surrogate1}, \cite{lime-sup}, \cite{lime}, \cite{wf_xnn}. 
+\item Local and global feature importance, e.g. Shapley values and derivative-based feature attribution \cite{grad_attr} \cite{keinan2004fair}, \cite{shapley}, \cite{shapley1988shapley}, \cite{kononenko2010efficient}.
+\item Local and global model-agnostic surrogate models, e.g. surrogate decision trees and local interpretable model-agnostic explanations (LIME) \cite{dt_surrogate2}, \cite{viper}, \cite{dt_surrogate1}, \cite{lime-sup}, \cite{lime}, \cite{wf_xnn}. 
 \item Local and global visualizations of model predictions, e.g. accumulated local effect (ALE) plots, 1- and 2-dimensional partial dependence plots, and individual conditional expectation (ICE) plots \cite{ale_plot}, \cite{esl}, \cite{ice_plots}.
 \end{itemize}  
 
-\noindent\textbf{Interpretable models} (i.e. white-box models): include linear models, decision trees, rule-based models, constrained or Bayesian variants of traditional black-box ML models, or novel interpretable-by-design models. Examples of interpretable-by-design models are explainable neural networks (XNNs), explainable boosting machines (EBMs, GA2M), monotonically constrained GBMs, scalable Bayesian rule lists, or super-sparse linear integer models (SLIMs) \cite{slim}, \cite{wf_xnn}, \cite{sbrl}.\footnote{As implemented in the interpret library: \url{https://github.com/microsoft/interpret}.}\textsuperscript{,}\footnote{As implemented in XGBoost (\url{https://xgboost.readthedocs.io/en/latest/tutorials/monotonic.html}) or H2O-3 (\url{https://github.com/h2oai/h2o-3/blob/master/h2o-py/demos/H2O_tutorial_gbm_monotonicity.ipynb}).}\textsuperscript{,}\footnote{And other methods, e.g. \url{https://users.cs.duke.edu/~cynthia/papers.html}.}\\
+\noindent\textbf{Interpretable models} (i.e. \textit{white-box} models): include linear models, decision trees, rule-based models, constrained or Bayesian variants of traditional black-box ML models, or novel interpretable-by-design models. Explainable neural networks (XNNs), explainable boosting machines (EBMs, GA2M), monotonic GBMs, scalable Bayesian rule lists, or super-sparse linear integer models (SLIMs) are examples of newer interpretable models \cite{slim}, \cite{wf_xnn}, \cite{sbrl}.\footnote{As implemented in the interpret library: \url{https://github.com/microsoft/interpret}.}\textsuperscript{,}\footnote{As implemented in XGBoost (\url{https://xgboost.readthedocs.io/en/latest/tutorials/monotonic.html}) or H2O-3 (\url{https://github.com/h2oai/h2o-3/blob/master/h2o-py/demos/H2O_tutorial_gbm_monotonicity.ipynb}).}\textsuperscript{,}\footnote{And similar methods, e.g. \url{https://users.cs.duke.edu/~cynthia/papers.html}.}\\
 
 \vspace{-8pt}
-\noindent\textbf{Model debugging techniques} refer to methods for testing ML models that increase trust in model mechanisms and predictions. Examples of model debugging techniques include model assertions, ML security audits, variants of sensitivity (i.e. ``what-if?'') analysis, variants of residual analysis, and units test used to verify the accuracy or security of ML models \cite{modeltracker}, \cite{kangdebugging}.\footnote{And similar methods, e.g. \url{https://debug-ml-iclr2019.github.io/}.} Model debugging should also include remediating any discovered errors or vulnerabilities.\\
+\noindent\textbf{Model debugging techniques} refer to methods for testing ML models that increase trust in mechanisms and predictions. Examples of debugging techniques include model assertions, security audits, variants of sensitivity (i.e. \textit{what-if?}) analysis, variants of residual analysis and explanations, and unit tests to verify the accuracy or security of ML models \cite{modeltracker}, \cite{kangdebugging}.\footnote{And similar methods, e.g. \url{https://debug-ml-iclr2019.github.io/}.} Model debugging should also include remediating any discovered errors or vulnerabilities.\\
 
 \vspace{-8pt}
 \noindent\textbf{Fairness techniques} are used to diagnose and remediate unwanted sociological bias in ML models. Diagnosis approaches include disparate impact testing and other tests for unwanted sociological bias \cite{feldman2015certifying}. Remediation methods tend to involve model selection by minimization of bias, preprocessing training data, e.g. reweighing (\citet{kamiran2012data}), training unbiased models, e.g. adversarial de-biasing (\citet{zhang2018mitigating}), or post-processing model predictions, e.g. by equalizing odds (\citet{hardt2016equality}).\footnote{And similar methods, e.g. \url{http://www.fatml.org/resources/relevant-scholarship}.} 
 
 \section{Guidelines}
 
-Four guidelines are presented and discussed in Sections \ref{sec:trust} -- \ref{sec:white_box} to assist practitioners in avoiding any unintentional misuse or in identifying any intentional abuse of explainable ML techniques. Important corollaries to the guidelines are also highlighted. Straightforward, reproducible software examples accompany the guidelines. 
+Four guidelines are presented in Sections \ref{sec:trust} -- \ref{sec:white_box} to assist practitioners in avoiding any unintentional misuse or in identifying any intentional abuse of explainable ML techniques. Important corollaries to the guidelines are also highlighted. Open and reproducible software examples accompany the guidelines at: \url{https://github.com/h2oai/xai_guidelines}.
 
 \subsection{Guideline: Use Explanations to Enable Understanding Directly.} \label{sec:trust}
 
@@ -263,7 +263,7 @@ When used disingenuously, explainable ML methods can enable:
 
 Models of models, or surrogate models, can be helpful explanatory tools, but they are often approximate, low-fidelity explainers. Combine direct explanation methods with approximate global or local summaries provided by surrogate models to enhance both types of explanations. In Figure \ref{fig:pdp_ice_dt_surrogate}, a surrogate decision tree and direct explanations, in the form of partial dependence and ICE, highlight and confirm modeled interactions \cite{art_and_sci}.
 
-\subsubsection{Corollary: Augment LIME with Direct Explanations.} LIME can be combined with direct explanations to yield deeper insights.  Table \ref{tab:lime} contains LIME $h_{\text{GLM}}$ coefficients that can used along with the local Shapley feature contributions in Figure \ref{fig:dt_shap} to reason about the modeled average behavior for risky customers and to differentiate the behavior of any one specific risky customer from their peers under the model for debugging and compliance purposes.
+\subsubsection{Corollary: Augment LIME with Direct Explanations.} LIME can be combined with direct explanations to yield deeper insights.  Table \ref{tab:lime} contains LIME $h_{\text{GLM}}$ coefficients that can be used along with the local Shapley feature contributions in Figure \ref{fig:dt_shap} to reason about the modeled average behavior for risky customers and to differentiate the behavior of any one specific risky customer from their peers under the model for debugging and compliance purposes.
 
 \begin{table}[htb!]
 	\caption{Coefficients for a local linear interpretable model, $h_{\text{GLM}}$, with an intercept of 0.77 and an $R^2$ of 0.73. $h_{\text{GLM}}$ is trained on a segment of the UCI credit card dataset containing higher-risk customers with late most recent repayment statuses, $\mathbf{X}_{PAY \_ 0 > 1}$, and the predictions of a simple decision tree, $g_{\text{tree}}(\mathbf{X}_{\text{PAY\_0} > 1})$. Code to replicate Table \ref{tab:lime} is available here: \url{https://github.com/h2oai/xai_guidelines}.} 
