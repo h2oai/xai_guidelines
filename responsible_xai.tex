@@ -188,7 +188,7 @@ Explainable ML practitioners have seemingly not yet adopted a clear taxonomy of 
 \vspace{-8pt}
 \noindent\textbf{Explainable ML}:  Analysis and techniques, typically post-hoc, employed to understand trained model mechanisms or predictions. Examples of common explainable ML techniques include:
 \begin{itemize}
-\item Local and global variable importance, e.g. Shapley values and derivative-based variable attribution \cite{grad_attr} \cite{keinan2004fair}, \cite{shapley}, \cite{shapley1988shapley}, \cite{kononenko2010efficient}.
+\item Local and global variable importance, e.g. Shapley and derivative-based variable attribution \cite{grad_attr} \cite{keinan2004fair}, \cite{shapley}, \cite{shapley1988shapley}, \cite{kononenko2010efficient}.
 \item Local and global model-agnostic surrogate models, e.g. surrogate decision trees and local interpretable model-agnostic explanations (LIME) \cite{dt_surrogate2}, \cite{viper}, \cite{dt_surrogate1}, \cite{lime-sup}, \cite{lime}, \cite{wf_xnn}. 
 \item Local and global visualizations of model predictions, e.g. accumulated local effect (ALE) plots, 1- and 2-dimensional partial dependence (PD) plots, and individual conditional expectation (ICE) plots \cite{ale_plot}, \cite{esl}, \cite{ice_plots}.
 \end{itemize}  
@@ -255,7 +255,7 @@ When used disingenuously, explainable ML methods can enable:
   		\caption{PD and ICE curves generated \textit{directly from the explained model}, $g_{\text{GBM}}$.}
   		\label{fig:pdp_ice}
 	\end{subfigure} \vspace{-5pt}
-	\caption{$h_{\text{tree}}$ displays known interactions in the known function $f = X_{\text{num}1} * X_{\text{num}4} + |X_{\text{num}8}| * X_{\text{num}9}^2$ for $\sim -0.923 < X_{\text{num9}} <  \sim 1.04$. Modeling of the known interaction between in $f$ by $g_{\text{GBM}}$ is confirmed by the divergence of PD and ICE curves for $\sim -1 < X_{\text{num9}} <  \sim 1$. Explanations from a surrogate model have augmented findings from a direct explanation technique. Code to replicate Figure \ref{fig:pdp_ice_dt_surrogate} is available here: \url{https://github.com/h2oai/xai_guidelines/blob/master/dt_surrogate_pd_ice.ipynb}.}
+	\caption{$h_{\text{tree}}$ displays known interactions in the known function $f = X_{\text{num}1} * X_{\text{num}4} + |X_{\text{num}8}| * X_{\text{num}9}^2$ for $\sim -1 < X_{\text{num9}} <  \sim 1$. Modeling of the known interaction between in $f$ by $g_{\text{GBM}}$ is confirmed by the divergence of PD and ICE curves for $\sim -1 < X_{\text{num9}} <  \sim 1$. Explanations from a surrogate model have augmented findings from a direct explanation technique. Code to replicate Figure \ref{fig:pdp_ice_dt_surrogate} is available here: \url{https://github.com/h2oai/xai_guidelines/blob/master/dt_surrogate_pd_ice.ipynb}.}
 	\label{fig:pdp_ice_dt_surrogate}
 \end{figure*}
 
