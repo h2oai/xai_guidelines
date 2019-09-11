@@ -18,6 +18,15 @@ All tutorial code and materials are available here: https://github.com/h2oai/xai
 9. Click the `xai_guidelines` folder. (For those interested, the `patrick_hall_mli` folder contains resources from a 2018 FAT* tutorial.)
 10. You now have access to the tutorial materials. You may browse them at your own pace or wait for instructions. You may also come back to them at anytime using your Aquarium login. 
 
+#### Preliminary example code
+* Guideline 2.1: [An explainable, but untrustworthy, model](https://nbviewer.jupyter.org/github/h2oai/xai_guidelines/blob/master/global_shap_resid.ipynb)
+* Guideline 2.3: [Augmenting surrogate models with direct explanations](https://nbviewer.jupyter.org/github/h2oai/xai_guidelines/blob/master/dt_surrogate_pd_ice.ipynb)
+* Corollary 2.3.1: [Augmenting LIME with direct explanations](https://nbviewer.jupyter.org/github/h2oai/xai_guidelines/blob/master/dt_shap_lime.ipynb)
+* Corollary 2.4.1: [Combining interpretable models and explanations](https://nbviewer.jupyter.org/github/h2oai/xai_guidelines/blob/master/dt_shap_lime.ipynb)
+* Corollaries 2.4.2 - 2.4.2: [Combining constrained models, explanations, and bias testing](https://nbviewer.jupyter.org/github/h2oai/xai_guidelines/blob/master/dia.ipynb)
+
+#### Preliminary [slides](https://github.com/jphall663/kdd_2019/blob/master/main.pdf)
+
 #### Tutorial Instructors
 
 **Patrick Hall**: Patrick Hall is senior director for data science products at H2O.ai where he focuses on increasing trust and understanding in machine learning through interpretable models, post-hoc explanations, model debugging, and bias testing and remediation. Patrick is also currently an adjunct professor in the Department of Decision Sciences at George Washington University, where he teaches graduate classes in data mining and machine learning. Prior to joining H2O.ai, Patrick held global customer facing roles and research and development roles at SAS Institute.
