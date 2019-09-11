@@ -18,7 +18,7 @@ All tutorial code and materials are available here: https://github.com/h2oai/xai
 9. Click the `xai_guidelines` folder. (For those interested, the `patrick_hall_mli` folder contains resources from a 2018 FAT* tutorial.)
 10. You now have access to the tutorial materials. You may browse them at your own pace or wait for instructions. You may also come back to them at anytime using your Aquarium login. 
 
-#### Preliminary example code
+#### To view preliminary example code
 * Guideline 2.1: [An explainable, but untrustworthy, model](https://nbviewer.jupyter.org/github/h2oai/xai_guidelines/blob/master/global_shap_resid.ipynb)
 * Guideline 2.3: [Augmenting surrogate models with direct explanations](https://nbviewer.jupyter.org/github/h2oai/xai_guidelines/blob/master/dt_surrogate_pd_ice.ipynb)
 * Corollary 2.3.1: [Augmenting LIME with direct explanations](https://nbviewer.jupyter.org/github/h2oai/xai_guidelines/blob/master/dt_shap_lime.ipynb)
