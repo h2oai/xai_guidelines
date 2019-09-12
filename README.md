@@ -25,7 +25,7 @@ All tutorial code and materials are available here: https://github.com/h2oai/xai
 * Corollary 2.4.1: [Combining interpretable models and explanations](https://nbviewer.jupyter.org/github/h2oai/xai_guidelines/blob/master/dt_shap_lime.ipynb)
 * Corollaries 2.4.2 - 2.4.2: [Combining constrained models, explanations, and bias testing](https://nbviewer.jupyter.org/github/h2oai/xai_guidelines/blob/master/dia.ipynb)
 
-#### Preliminary tutorial slides: [github.com/jphall663/kdd_2019](https://github.com/jphall663/kdd_2019/blob/master/main.pdf)
+#### Preliminary tutorial slides: [Guidelines for Responsible Explainable ML](https://github.com/jphall663/kdd_2019/blob/master/main.pdf)
 
 #### Tutorial Instructors:
 
